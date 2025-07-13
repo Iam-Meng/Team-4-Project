@@ -3,7 +3,6 @@
 
 #include "tigr.h"
 
-// Scales a Tigr image to new dimensions using nearest-neighbor interpolation
-Tigr* scaleImage(Tigr* src, int newWidth, int newHeight);
+Tigr* load_scaled_background(const char* path, int screenWidth, int screenHeight);
 
-#endif // BACKGROUND_H
+#endif
